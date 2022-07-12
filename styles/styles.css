@@ -476,7 +476,7 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .cpp {
-  width: 80%;
+  width: 85%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
@@ -641,6 +641,11 @@ section {
   font-size: 1.5rem;
   color: var(--color-white);
   margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.portfolios .portfolio-item .hover-items h3 span {
+  color: var(--color-primary);
 }
 
 .portfolios .portfolio-item .hover-items .icons {
@@ -724,6 +729,10 @@ section {
   transition: var(--trans-1);
 }
 
+.blogs .blog:hover a {
+  width: 100%;
+}
+
 .blogs .blog:hover img {
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
@@ -731,6 +740,11 @@ section {
           transform: scale(1.1);
   -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.8);
           box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.blogs .blog a {
+  width: 100%;
 }
 
 .blogs .blog img {
@@ -744,6 +758,7 @@ section {
           filter: grayscale(100%);
   -webkit-transform: var(--trans-1);
           transform: var(--trans-1);
+  cursor: pointer;
 }
 
 .blogs .blog .blog-text {
@@ -757,7 +772,6 @@ section {
   margin-bottom: 0.7rem;
   -webkit-transition: var(--trans-1);
   transition: var(--trans-1);
-  cursor: pointer;
 }
 
 .blogs .blog .blog-text h4:hover {
@@ -886,7 +900,7 @@ section {
 }
 
 .contact-content-con .right-contact button {
-  background-color: var(--color-grey4);
+  background-color: var(--color-grey-2);
   cursor: pointer;
 }
 

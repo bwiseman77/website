@@ -472,7 +472,7 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .c {
-  width: 90%;
+  width: 95%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .cpp {
@@ -480,7 +480,7 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 70%;
+  width: 80%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
@@ -488,11 +488,23 @@ section {
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .assembly {
-  width: 30%;
+  width: 50%;
 }
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .linux {
-  width: 40%;
+  width: 70%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .Bash {
+  width: 70%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .Java {
+  width: 30%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .Javascript {
+  width: 50%;
 }
 
 .stat-title {

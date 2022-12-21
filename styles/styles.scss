@@ -347,7 +347,7 @@ section {
 
           /* skills widths */
           .c {
-            width: 90%;
+            width: 95%;
           }
 
           .cpp {
@@ -363,14 +363,20 @@ section {
           }
 
           .assembly {
-            width: 30%;
+            width: 50%;
           }
 
           .linux {
-            width: 40%;
+            width: 70%;
           }
           .Bash {
-            width: 60%;
+            width: 70%;
+          }
+          .Java {
+            width: 30%;
+          }
+          .Javascript {
+            width: 50%;
           }
         }
       }
